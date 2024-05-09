@@ -1,10 +1,10 @@
 import React from 'react'
 import './content.css'
 
-export default function content() {
+export default function Content() {
   return (
     <div className='paragraph'>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum iusto molestiae excepturi totam ipsam asperiores optio. Sequi repudiandae nihil deleniti nostrum recusandae eius, reiciendis debitis totam quis consequuntur perferendis cum!</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat corporis accusantium, pariatur sunt quam necessitatibus fuga iure, soluta mollitia a molestiae ipsam exercitationem qui veritatis quisquam? Perspiciatis nisi a natus.</p>
     </div>
   )
 }
