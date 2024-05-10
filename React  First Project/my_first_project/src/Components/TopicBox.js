@@ -1,7 +1,7 @@
 import React from 'react'
 import './topicbox.css'
 
-export default function TopicBox() {
+export default function TopicBox(props) {
   const topic = "My channel name is CodeNish"
 
   //const a=5;
@@ -13,7 +13,8 @@ export default function TopicBox() {
   return (
     <div>
       <div className="topicBox">
-        <span className='text'> {topic} </span>
+        <span className='text'> My name is {props.name}  and {props.age} years.</span>
+        {props.children}
       </div>
     </div>
   )
