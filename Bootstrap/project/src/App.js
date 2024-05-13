@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
-
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
-<div>
-  <h1>Hello</h1>
-</div>
+<>
+<Button variant="primary">Primary</Button>{' '}
+<Button variant="secondary">Secondary</Button>{' '}
+<Button variant="danger">Danger</Button>{' '}
+    </>
 
   );
 }
